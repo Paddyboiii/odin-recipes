@@ -4,3 +4,9 @@
     font-weight: bold;
     text-align: center;
 }
+
+.list {
+    width: 270px;
+    margin: 0 auto;
+    border: 5px dotted seagreen;
+}
