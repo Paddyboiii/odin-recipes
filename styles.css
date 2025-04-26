@@ -21,6 +21,26 @@
     margin-bottom: 3px;
 }
 
-.a {
-    color: brown;
+.egg-title {
+    font-family: Garamond, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img.egg-pic {
+    float: right;
+    width: 50%;
+    overflow: auto;
+}
+
+.egg-heading {
+    text-align: center;
+}
+
+.egg-description {
+    width: 775px;
+    background-color: rgba(201, 231, 231, 0.582);
+    border: 2px solid rgb(230, 206, 240);
+    padding: 10px;
 }
