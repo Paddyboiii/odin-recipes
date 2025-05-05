@@ -28,19 +28,32 @@
     text-align: center;
 }
 
-img.egg-pic {
-    float: right;
-    width: 50%;
-    overflow: auto;
-}
-
 .egg-heading {
-    text-align: center;
+    text-align: left;
 }
+.egg-container {
+    display: flex;
+    gap: 8px;
+ }
 
-.egg-description {
-    width: 775px;
+ .egg-description,
+ .egg-steps {
     background-color: rgba(201, 231, 231, 0.582);
     border: 2px solid rgb(230, 206, 240);
     padding: 10px;
 }
+
+.egg-steps {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+img.egg-pic {
+    width: 50%;
+}
+
+
+
+
+
+
